@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: 1px solid red;
+}
+
+.item-1 {
+    min-width: 692px;
+    min-height: 589px;
+
+    display: flex;
+    margin-right: 10px;
+    border-radius: 15px;
+
+    background-color: #0D6EFD;
+}
+
+.item-2 {
+    max-width: 604px;
+    min-height: 357px;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.bloco-1 {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+.senha {
+    width: 302px;
+    height: 203px;
+
+    display: flex;
+    margin-right: 10px;
+    border-radius: 15px;
+
+    background-color: #0D6EFD;
+}
+
+.guicher {
+    width: 302px;
+    height: 203px;
+
+    display: flex;
+    margin-left: 10px;
+    border-radius: 15px;
+
+    background-color: #0D6EFD;
+}
+
+.bloco-2 {
+    margin-top: 10px;
+    display: flex;
+}
+
+.senhas-anteriores {
+    width: 600px;
+    height: 357px;
+
+    display: flex;
+
+    border-radius: 15px;
+
+    background-color: #0D6EFD;
+}
