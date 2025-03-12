@@ -8,7 +8,7 @@ async function gerarSenha(tipo) {
         body: JSON.stringify({ tipo }),
     });
     const data = await response.json();
-    document.getElementById('mensagem').innerText = `Senha gerada: ${data.senha}`;
+    alert(`Senha gerada: ${data.senha}`);
 }
 
 // Função para chamar a próxima senha
