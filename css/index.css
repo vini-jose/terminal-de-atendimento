@@ -33,17 +33,36 @@ h1 {
 }
 
 .button {
+    display: flex;
+    flex-direction: row;
     width: 539px;
-    height: 156px;
+    height: 134px;
     margin-top: 36px;
     border-radius: 10px;
     background-color: #0D6EFD;
     border: 0px;
     transition: all 0.8s;
+    align-items: center;
+
 }
 
 .button:hover {
     background-color: #79a9f1;
+}
+
+.item-img {
+    margin-left: 15px;
+    align-items: center;
+}
+
+img {
+    width: 64px;
+}
+
+.item-txt {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {

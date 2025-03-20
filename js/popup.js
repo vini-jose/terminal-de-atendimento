@@ -37,6 +37,14 @@ function openPopup(category) {
                 <li>Identidade</li>
             `;
             break;
+        case 'Pagamento':
+                popupTitle.textContent = 'Documentos para Pagamento';
+                popupList.innerHTML = `
+                    <li>Comprovante de residência</li>
+                    <li>CPF</li>
+                    <li>Identidade</li>
+                `;
+                break;
         default:
             popupTitle.textContent = 'Documentos necessários';
             popupList.innerHTML = `
